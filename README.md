@@ -3,8 +3,7 @@ This repository contains the code of
 [SA-TSC] Self-Supervised Framework based on Subject-wise Clustering for Human Subject Time Series Data
 ![model_img](main_fig.png)
 
-# Dependencies
-- CPU or NVIDIA GPU
+# Requirements
 - Python 3.7.16
 - pytorch 1.13.0
 - numpy 1.21.5
