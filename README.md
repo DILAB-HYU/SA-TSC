@@ -24,7 +24,7 @@ During the fine-tuning process of the model, either '1 subject' or '2 subjects' 
 
 # Training
 SA-TSC provides two training phases:
-- Pretrain Model (main_aug_v2.py)
+- Pretrain Model (main_aug.py)
 ```
   python main_aug_v2.py
 ```
