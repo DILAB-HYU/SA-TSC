@@ -8,7 +8,7 @@ import torch.optim as optim
 import torch.nn as nn
 import torch.nn.functional as F
 
-from spatial_TCC_v3 import SpatialGNN_Sleep, SpatialGNN_HAR 
+from spatial_TCC import SpatialGNN_Sleep, SpatialGNN_HAR 
 
 from ssl_loss import Barlow_loss
 
