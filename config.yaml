@@ -1,0 +1,126 @@
+physionet:
+  channel_name :  ['C3-M2','C4-M1','F3-M2','F4-M1','O1-M2','O2-M1']
+  spatio_edge :  [[0,1],[1,0],
+                  [2,3],[3,2], 
+                  [4,5],[5,4],
+                  [0,2],[2,0],
+                  [0,4],[4,0],
+                  [2,4],[4,2],
+                  [1,3],[3,1],
+                  [1,5],[5,1],
+                  [3,5],[5,3]]
+  num_nodes : 6
+  input_dim : 3000
+  output_dim : 256
+  kernel_size : 128
+  fft_dim : 1501
+  cluster_num: 5
+  rpe : True
+  aug_spatio_edge : [[0,1],[1,0],
+                    [2,3],[3,2], 
+                    [4,5],[5,4]]
+                  
+ISRUC:
+  channel_name :   ['C3_A2','C4_A1','F3_A2','F4_A1','O1_A2','O2_A1']
+  spatio_edge :  [[0,1],[1,0],
+                  [2,3],[3,2], 
+                  [4,5],[5,4],
+                  [0,2],[2,0],
+                  [0,4],[4,0],
+                  [2,4],[4,2],
+                  [1,3],[3,1],
+                  [1,5],[5,1],
+                  [3,5],[5,3]]
+  num_nodes : 6
+  input_dim : 3000
+  output_dim : 256
+  kernel_size : 128
+  fft_dim : 1501
+  cluster_num: 5
+  rpe : True
+  aug_spatio_edge : [[0,1],[1,0],
+                    [2,3],[3,2],
+                    [4,5],[5,4]]
+SleepEDF:
+  channel_name :   ['EEG Fpz-Cz', 'EEG Pz-Oz', 'EOG horizontal', 'EMG submental']
+  spatio_edge :  [[0,1],[1,0],
+                  [0,3],[3,0],
+                  [1,3],[3,1],
+                  [2,3],[3,2]]
+  num_nodes : 4
+  input_dim : 3000
+  output_dim : 256
+  kernel_size : 128
+  fft_dim : 1501
+  cluster_num: 5
+  rpe : True
+
+
+# HAR:
+#   channel_name : ['gyro_x', 'gyro_y', 'gyro_z', 'tot_acc_x', 'tot_acc_y',  'tot_acc_z']
+
+#   spatio_edge: [[0,1],[1,0],
+#                   [1,2],[2,1],
+#                   [0,2],[2,0],
+
+#                   [3,4],[4,3],
+#                   [3,5],[5,3],
+#                   [4,5],[5,4],
+
+#                   [0,3],[3,0],
+#                   [1,4],[4,1],
+#                   [2,5],[5,2]]
+#   num_nodes : 6
+#   input_dim : 128
+#   output_dim : 128
+#   kernel_size : 16
+#   fft_dim : 65
+#   cluster_num: 6
+#   rpe : False
+
+
+HAR:
+
+  channel_name : ['acc_x', 'acc_y', 'acc_z', 'gyro_x', 'gyro_y', 'gyro_z', 'tot_acc_x', 'tot_acc_y',  'tot_acc_z']
+  spatio_edge : [[0,1],[1,0],
+                  [1,2],[2,1],
+                  [0,2],[2,0],
+
+                  [3,4],[4,3],
+                  [3,5],[5,3],
+                  [4,5],[5,4],
+
+                  [6,7],[7,6],
+                  [6,8],[8,6],
+                  [7,8],[8,7],
+                  
+                  [0,3],[3,0],
+                  [0,6],[6,0],
+                  [3,6],[6,3],
+
+                  [1,4],[4,1],
+                  [1,7],[7,1],
+                  [4,7],[7,4],
+
+                  [2,5],[5,2],
+                  [2,8],[8,2],
+                  [5,8],[8,5]]
+                  
+  aug_spatio_edge : [[0,1],[1,0],
+                  [1,2],[2,1],
+                  [0,2],[2,0],
+
+                  [3,4],[4,3],
+                  [3,5],[5,3],
+                  [4,5],[5,4],
+
+                  [6,7],[7,6],
+                  [6,8],[8,6],
+                  [7,8],[8,7]]
+  num_nodes : 9
+  input_dim : 128
+  output_dim : 128
+  kernel_size : 16
+  fft_dim : 65
+  cluster_num: 6
+  rpe : False 
