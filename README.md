@@ -36,4 +36,4 @@ SA-TSC provides two training phases:
 The pretrain model should be run before the finetuning model.
 
 # Result
-If csv_save == True in main_finetune.py, the result will be automatically saved in 'result_{data_set}.csv] file.
+If csv_save == True in main_finetune.py, the result will be automatically saved in 'result_{data_set}.csv' file.
