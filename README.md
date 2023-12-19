@@ -1,6 +1,6 @@
 # SA-TSC
 This repository contains the code of [SA-TSC] Self-Supervised Framework based on Subject-wise Clustering for Human Subject Time Series Data
-![model_img](./main_fig.pdf)
+![model_img](main_fig.pdf)
 
 # Dependencies
 - CPU or NVIDIA GPU
