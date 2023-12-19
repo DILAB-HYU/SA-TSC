@@ -1,5 +1,5 @@
 import argparse, os, torch, inspect
-from pretrain_aug_v2 import Graph_sleep
+from pretrain_aug import Graph_sleep
 from utils import str2bool
 
 """parsing and configuration"""
