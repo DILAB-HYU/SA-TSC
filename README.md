@@ -18,9 +18,9 @@ We used three public datasets in this research.
 The dataset is partitioned into two subsets: 80% for the training set and the remaining 20% for the test set. 
 During the fine-tuning process of the model, either '1 subject' or '2 subjects' are used from within the training dataset.
 
-- HAR(https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones)
-- ISRUC(https://sleeptight.isr.uc.pt/?page_id=48)
-- SleepEDF(https://github.com/MousaviSajad/SleepEEGNet/blob/master/data_2013/download_physionet.sh)
+- [HAR](https://archive.ics.uci.edu/dataset/240/human+activity+recognition+using+smartphones)
+- [ISRUC](https://sleeptight.isr.uc.pt/?page_id=48)
+- [SleepEDF](https://github.com/MousaviSajad/SleepEEGNet/blob/master/data_2013/download_physionet.sh)
 
 # Training
 SA-TSC provides two training phases:
