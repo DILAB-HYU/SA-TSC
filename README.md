@@ -25,14 +25,14 @@ During the fine-tuning process of the model, either '1 subject' or '2 subjects' 
 # Training
 SA-TSC provides two training phases:
 - Pretrain Model (main_aug_v2.py)
-`
+```
   python main_aug_v2.py
-`
+```
 - Finetuning Model (main_finetune.py)
-`
+```
   python main_finetune.py --subject 1 # performs finetuning w/ labels from 1 subject.
   python main_finetune.py --subject 2 # performs finetuning w/ labels from 2 subjects.
-`
+```
 The pretrain model should be run before the finetuning model.
 
 # Result
